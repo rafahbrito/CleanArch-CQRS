@@ -1,0 +1,20 @@
+services:
+  cleanarch-cqrs.api:
+    container_name: cleanarch-cqrs.api
+    image: ${DOCKER_REGISTRY-}cleanarchcqrsapi
+    build:
+      context: .
+      dockerfile: CleanArch-CQRS.Api/Dockerfile
+    ports:
+      - "7278:8080"
+  cleanarch-cqrs.db:
+    container_name: cleanarch-cqrs.db
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - "ACCEPT_EULA=Y"
+      - "MSSQL_SA_PASSWORD=SuperSenha@10"
+    networks:
+      - cleanarch-cqrs
+networks:
+  cleanarch-cqrs:
+    driver: bridge

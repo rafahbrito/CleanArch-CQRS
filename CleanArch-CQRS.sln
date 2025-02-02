@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch-CQRS.Domain", "CleanArch-CQRS.Domain\CleanArch-CQRS.Domain.csproj", "{756EE0F0-F073-45F5-8EE6-DE4A3DF23CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch-CQRS.Application", "CleanArch-CQRS.Application\CleanArch-CQRS.Application.csproj", "{7B7225D3-9360-42A7-8EFF-64A2958A6192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch-CQRS.Infra", "CleanArch-CQRS.Infra\CleanArch-CQRS.Infra.csproj", "{A7E79E41-6E06-4337-BA1C-A382DCECBF77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch-CQRS.CrossCutting", "CleanArch-CQRS.CrossCutting\CleanArch-CQRS.CrossCutting.csproj", "{111D18D4-CE82-43BB-BEAE-C149BA01BF96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch-CQRS.Api", "CleanArch-CQRS.Api\CleanArch-CQRS.Api.csproj", "{78919D62-2743-44E1-BC7D-0855D763FC82}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E8633445-8AB6-4658-A40E-111223B69D5E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{756EE0F0-F073-45F5-8EE6-DE4A3DF23CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756EE0F0-F073-45F5-8EE6-DE4A3DF23CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756EE0F0-F073-45F5-8EE6-DE4A3DF23CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756EE0F0-F073-45F5-8EE6-DE4A3DF23CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B7225D3-9360-42A7-8EFF-64A2958A6192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7225D3-9360-42A7-8EFF-64A2958A6192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7225D3-9360-42A7-8EFF-64A2958A6192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7225D3-9360-42A7-8EFF-64A2958A6192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E79E41-6E06-4337-BA1C-A382DCECBF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E79E41-6E06-4337-BA1C-A382DCECBF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E79E41-6E06-4337-BA1C-A382DCECBF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E79E41-6E06-4337-BA1C-A382DCECBF77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111D18D4-CE82-43BB-BEAE-C149BA01BF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111D18D4-CE82-43BB-BEAE-C149BA01BF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111D18D4-CE82-43BB-BEAE-C149BA01BF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111D18D4-CE82-43BB-BEAE-C149BA01BF96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78919D62-2743-44E1-BC7D-0855D763FC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78919D62-2743-44E1-BC7D-0855D763FC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78919D62-2743-44E1-BC7D-0855D763FC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78919D62-2743-44E1-BC7D-0855D763FC82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8633445-8AB6-4658-A40E-111223B69D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8633445-8AB6-4658-A40E-111223B69D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8633445-8AB6-4658-A40E-111223B69D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8633445-8AB6-4658-A40E-111223B69D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
