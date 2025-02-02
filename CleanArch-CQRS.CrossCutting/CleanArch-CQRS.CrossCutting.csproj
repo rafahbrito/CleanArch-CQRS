@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArch-CQRS.Application\CleanArch-CQRS.Application.csproj" />
+    <ProjectReference Include="..\CleanArch-CQRS.Domain\CleanArch-CQRS.Domain.csproj" />
+    <ProjectReference Include="..\CleanArch-CQRS.Infra\CleanArch-CQRS.Infra.csproj" />
+  </ItemGroup>
+
 </Project>
